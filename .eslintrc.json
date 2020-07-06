@@ -4,7 +4,7 @@
       "version": "detect"
     }
   },
-  "extends": ["standard-with-typescript", "plugin:react/recommentded"],
+  "extends": ["standard-with-typescript", "plugin:react/recommended"],
   "plugins": ["react"],
   "parserOptions": {
     "project": "./tsconfig.json"
@@ -13,7 +13,7 @@
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
     "@typescript-eslint/camelcase": "off",
-    "react/jsx-users-react": "error",
-    "react/jsx-users-vars": "error"
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
   }
 }
